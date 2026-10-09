@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>index</title>
+<style>
+    *{box-sizing:border-box}
+ body{ margin:0;
+       padding:0'
+       }
+ ul{ 
+    list-style-type:none;
+    margin:0;
+    padding:0;
+        background-color:#2c19da;
+    display:flex;
+   }
+ul li a{ 
+        display:block;
+        color:white;
+        padding:14px 16px;
+        text-decoration: none;
+} 
+ul li a.action{
+                background-color:green;
+}     
+
+    .flex-container{
+            display:flex;
+            flex-direction:row;
+            font-size:30px;
+            text-align:center;
+    }
+    .flex-items{
+        background-color:aliceblue;
+        padding:10px;
+        flex:50%;
+    }
+    .grid-container{
+        display:grid;
+        grid-template-columns:auto auto auto;
+        gap:10px;
+        background-color:lightgrey;
+        padding:10px;
+    }
+    .grid-item{
+        background-color:steelblue;
+        color:white;
+        padding:20px;
+        font-size:20px;
+        text-align:center;
+
+    }
+</style>
+</head>
+ <body>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a class="active" href="gallery.html">Gallrey</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+
+<h2>GALLERY</h2>
+<div class="grid-container">
+    <div class="grid-item">
+        <img src="C:\Users\malna\Pictures\DarwinPRO-BMW-M4-4kk.jpg" width="200" height="200">
+    </div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">1</div>
+</div>
+
+    <div class="flex-container">
+        <div class="flex-items">About us
+            <p>I am Ameena Mandal</p>
+        </div>
+        <div class="flex-items">quick links<br>
+            <a style="text-decoration: none;" href="index.html">Home</a><br>
+            <a style="text-decoration: none;" href="about.html">About</a><br>
+            <a style="text-decoration: none;" href="gallery.html">Gallery</a><br>
+            <a style="text-decoration: none;" href="contact.html">Contact</a><br>
+        </div>
+        <div class="flex-items">Contact us
+    <p>Shivamogga,Karnataka</p>
+        <p>abc@gmail.com</p>
+        </div>
+        </div>
+</body>
+        </html>

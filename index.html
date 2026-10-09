@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>index</title>
+<style>
+    *{box-sizing:border-box}
+    .flex-container{
+            display:flex;
+            flex-direction:row;
+            font-size:30px;
+            text-align:center;
+    }
+    .flex-items{
+        background-color:aliceblue;
+        padding:10px;
+        flex:50%;
+    }
+     ul{ 
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    background-color:#2c19da;
+    display:flex;
+   }
+ul li a{ 
+        display:block;
+        color:white;
+        padding:14px 16px;
+        text-decoration: none;
+} 
+ul li a.action{
+                background-color:green;
+}     
+</style>
+</head>
+ <body>
+    <ul>
+    
+    <li><a class="active"  href="index.html">Home</a></li>
+    <li><a  href="about.html">About</a></li>
+    <li><a  href="gallery.html">Gallrey</a></li>
+    <li><a  href="contact.html">Contact</a></li>
+</ul>
+    <div class="flex-container">
+        <div class="flex-items">About us
+            <p>I am Ameena Mandal</p>
+        </div>
+        <div class="flex-items">quick links<br>
+            <a style="text-decoration: none;" href="index.html">Home</a><br>
+            <a style="text-decoration: none;" href="about.html">About</a><br>
+            <a style="text-decoration: none;" href="gallery.html">Gallery</a><br>
+            <a style="text-decoration: none;" href="contact.html">Contact</a><br>
+        </div>
+        <div class="flex-items">Contact us
+    <p>Shivamogga,Karnataka</p>
+        <p>abc@gmail.com</p>
+        </div>
+        </div>
+</body>
+        </html>
